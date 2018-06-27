@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f1e620e-28f2-4492-8bde-4cf3928dc4c0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/models/Category.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/CategoryRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/CategoryService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/CategoryServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Exercise-master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/models/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/models/UserProfile.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/models/UserProfile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserProfileRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserProfileRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/upgrad/controllers/UserControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/upgrad/controllers/UserControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/java/org/upgrad/controllers/AdminControllerTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +30,48 @@
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1530087447942" expanded="true" signature="475:530" ph="SELECT email... USERS" />
+                <marker date="1530087447942" expanded="true" signature="609:670" ph="SELECT userN... USERS" />
+                <marker date="1530087447942" expanded="true" signature="755:816" ph="SELECT PASSW... USERS" />
+                <marker date="1530087447942" expanded="true" signature="903:958" ph="SELECT id FR... USERS" />
+                <marker date="1530087447942" expanded="true" signature="1040:1097" ph="SELECT ROLE USERS" />
+                <marker date="1530087447942" expanded="true" signature="1214:1283" ph="INSERT INTO USERS... " />
               </folding>
             </state>
           </provider>
@@ -100,8 +122,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="e#918#919#0" expanded="true" />
                 <element signature="e#943#944#0" expanded="true" />
@@ -123,40 +145,6 @@
                 <element signature="e#1510#1511#0" expanded="true" />
                 <element signature="e#1550#1551#0" expanded="true" />
                 <element signature="e#1582#1583#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="81" lean-forward="true" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserProfileService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserProfileRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserProfileRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <marker date="1530083440648" expanded="true" signature="553:595" ph="DELETE FROM USER_PROFILE... " />
-                <marker date="1530083440648" expanded="true" signature="673:717" ph="SELECT * FRO... USER_PROFILE" />
-                <marker date="1530083440648" expanded="true" signature="833:949" ph="INSERT INTO USER_PROFILE... " />
               </folding>
             </state>
           </provider>
@@ -192,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/services/UserProfileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/models/UserProfile.java" />
@@ -203,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/models/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/services/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java" />
       </list>
     </option>
@@ -475,12 +463,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529922052779</updated>
       <workItem from="1529922056148" duration="801000" />
-      <workItem from="1529992374893" duration="7816000" />
+      <workItem from="1529992374893" duration="9140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8617000" />
+    <option name="totallyTimeSpent" value="9941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,7 +539,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9251#0" expanded="true" />
+            <element signature="e#0#9251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -561,7 +549,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9880#0" expanded="true" />
+            <element signature="e#0#9880#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,7 +559,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2856#0" expanded="true" />
+            <element signature="e#0#2856#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -581,7 +569,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10885#0" expanded="true" />
+            <element signature="e#0#10885#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,7 +579,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#12123#0" expanded="true" />
+            <element signature="e#0#12123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,7 +589,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7554#0" expanded="true" />
+            <element signature="e#0#7554#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -619,7 +607,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9251#0" expanded="true" />
+            <element signature="e#0#9251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -629,7 +617,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9880#0" expanded="true" />
+            <element signature="e#0#9880#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,7 +627,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2856#0" expanded="true" />
+            <element signature="e#0#2856#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,7 +637,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10885#0" expanded="true" />
+            <element signature="e#0#10885#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,7 +647,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#12123#0" expanded="true" />
+            <element signature="e#0#12123#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -669,7 +657,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7554#0" expanded="true" />
+            <element signature="e#0#7554#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -679,38 +667,6 @@
         <state relative-caret-position="550">
           <caret line="191" column="28" lean-forward="false" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1530083102620" expanded="true" signature="475:530" ph="SELECT email... USERS" />
-            <marker date="1530083102620" expanded="true" signature="609:670" ph="SELECT userN... USERS" />
-            <marker date="1530083102620" expanded="true" signature="755:816" ph="SELECT PASSW... USERS" />
-            <marker date="1530083102620" expanded="true" signature="903:958" ph="SELECT id FR... USERS" />
-            <marker date="1530083102620" expanded="true" signature="1040:1097" ph="SELECT ROLE USERS" />
-            <marker date="1530083102620" expanded="true" signature="1214:1283" ph="INSERT INTO USERS... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,36 +691,36 @@
         <state relative-caret-position="51">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="false" />
+            <element signature="e#1379#1380#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+            <element signature="e#1444#1445#0" expanded="false" />
+            <element signature="e#1473#1474#0" expanded="false" />
+            <element signature="e#1500#1501#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+            <element signature="e#1570#1571#0" expanded="false" />
+            <element signature="e#1604#1605#0" expanded="false" />
+            <element signature="e#1634#1635#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="false" />
+            <element signature="e#1718#1719#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1808#1809#0" expanded="false" />
+            <element signature="e#1838#1839#0" expanded="false" />
+            <element signature="e#1873#1874#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="false" />
+            <element signature="e#1952#1953#0" expanded="false" />
+            <element signature="e#1992#1993#0" expanded="false" />
+            <element signature="e#2032#2033#0" expanded="false" />
+            <element signature="e#2068#2069#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+            <element signature="e#2176#2177#0" expanded="false" />
+            <element signature="e#2210#2211#0" expanded="false" />
+            <element signature="e#2240#2241#0" expanded="false" />
+            <element signature="e#2286#2287#0" expanded="false" />
+            <element signature="e#2324#2325#0" expanded="false" />
+            <element signature="e#2443#2444#0" expanded="false" />
+            <element signature="e#2485#2486#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -794,35 +750,6 @@
         <state relative-caret-position="153">
           <caret line="9" column="81" lean-forward="true" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,10 +797,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1530087447942" expanded="true" signature="475:530" ph="SELECT email... USERS" />
+            <marker date="1530087447942" expanded="true" signature="609:670" ph="SELECT userN... USERS" />
+            <marker date="1530087447942" expanded="true" signature="755:816" ph="SELECT PASSW... USERS" />
+            <marker date="1530087447942" expanded="true" signature="903:958" ph="SELECT id FR... USERS" />
+            <marker date="1530087447942" expanded="true" signature="1040:1097" ph="SELECT ROLE USERS" />
+            <marker date="1530087447942" expanded="true" signature="1214:1283" ph="INSERT INTO USERS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/upgrad/controllers/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -31,6 +31,5 @@ public interface UserRepository extends CrudRepository<User, Integer> {
     @Query(nativeQuery = true,value="INSERT INTO USERS (userName,EMAIL,PASSWORD,role) VALUES (?1,?2,?3,?4)")
     void save(String userName,String email, String password,String role);
 
-
 }
 
